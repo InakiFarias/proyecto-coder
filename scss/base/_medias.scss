@@ -1,0 +1,91 @@
+//MAIN
+@media screen and (max-width:1600px){
+    .bodega div h2{
+        font-size: 2.5em;
+    }
+    
+    .bodega div p{
+        font-size: 1.3em;
+    }
+
+    .bodega-p2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .bodega div h2{
+        font-size: 1.8em;
+    }
+
+    .bodega div p{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width:900px){
+    .bodega div h2{
+        font-size: 1.5em;
+    }
+    
+    .bodega div p{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:750px){
+    .bodega{
+        flex-direction: column;
+        margin: 5px;
+    }
+    
+    .bodega div{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .bodega div h2{
+        font-size: 1em;
+    }
+    
+    .bodega div p{
+        font-size: 0.8em;
+    }
+}
+
+//DESTACADOS
+@media screen and (max-width: 1200px){
+    .destacados h2{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .destacados h2{
+        font-size: 1.5em;
+    }
+}
+
+//FOOTER
+
+@media (max-width: 1200px){
+    .footer-visitanos div p{
+        display: none;
+    }
+    .footer-visitanos div a h4{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    footer{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px){
+    footer {
+        grid-template-columns: 1fr; 
+    }
+}
