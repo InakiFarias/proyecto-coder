@@ -67,6 +67,37 @@
     }
 }
 
+//PRODUCTOS
+
+@media screen and (max-width: 1200px){
+    .productos h2{
+        font-size: 2em;
+    }
+    .ofertas h2{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .productos h2{
+        font-size: 1.5em;
+    }
+    .ofertas h2{
+        font-size: 1.5em;
+    }
+}
+
+//NOSOTROS
+
+@media (max-width: 768px) {
+    .nosotros-historia div {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "p"
+        "img";
+    }
+}
+
 //FOOTER
 
 @media (max-width: 1200px){

@@ -1,0 +1,67 @@
+.nosotros-bienvenida{
+    margin: 20px;
+    background-color: #3a0000;
+    h2{
+        color: #ffffff;
+        font-size: 36px;
+        font-family: 'Georgia', serif; 
+        font-style: italic;
+        text-align: center;
+        letter-spacing: 1.5px;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
+        border: 1px solid #E0E0E0; 
+        border-radius: 10px; 
+        padding: 15px;
+    }
+    p{
+        display: inline-block;
+        color: #fff;
+        width: 500px;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 10px;
+    }
+    img{
+        display: inline-block;
+        width: 700px;
+        margin: 10px;
+    }
+}
+
+.nosotros-historia{
+    margin-top: 20px;
+    background-color: #d8cfc4; 
+    padding: 20px;
+    h2{
+        color: #d8cfc4; 
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-bottom: 3px solid #a89f91; 
+        background-color: #333; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "p img";
+        gap: 20px;
+        p{
+            grid-area: p;
+            color: #ffffff; 
+            font-size: 18px; 
+            padding: 10px;
+        }
+        img{
+            grid-area: img;
+            width: 100%; 
+            max-width: 600px; 
+            border-radius: 8px; 
+        }
+    }
+}
