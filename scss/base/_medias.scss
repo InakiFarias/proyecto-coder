@@ -89,12 +89,26 @@
 
 //NOSOTROS
 
-@media (max-width: 768px) {
+@media (max-width: 1000px){
+    .nosotros-bienvenida div{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "p"
+        "img";
+    }
     .nosotros-historia div {
         grid-template-columns: 1fr;
         grid-template-areas: 
         "p"
         "img";
+    }
+}
+
+//VISITANOS
+
+@media (max-width: 900px){
+    .sedes div p{
+        width: 80%;
     }
 }
 
