@@ -1,6 +1,6 @@
 //MAIN
 @media screen and (max-width:1600px){
-    .bodega div h2{
+    .bodega div h1{
         font-size: 2.5em;
     }
     
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width:1200px){
-    .bodega div h2{
+    .bodega div h1{
         font-size: 1.8em;
     }
 
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width:900px){
-    .bodega div h2{
+    .bodega div h1{
         font-size: 1.5em;
     }
     
@@ -45,7 +45,7 @@
 }
 
 @media screen and (max-width:500px){
-    .bodega div h2{
+    .bodega div h1{
         font-size: 1em;
     }
     
@@ -70,7 +70,7 @@
 //PRODUCTOS
 
 @media screen and (max-width: 1200px){
-    .productos h2{
+    .productos h1{
         font-size: 2em;
     }
     .ofertas h2{
@@ -79,7 +79,7 @@
 }
 
 @media screen and (max-width: 900px){
-    .productos h2{
+    .productos h1{
         font-size: 1.5em;
     }
     .ofertas h2{
@@ -101,6 +101,15 @@
         grid-template-areas: 
         "p"
         "img";
+    }
+}
+
+@media (max-width: 800px){
+    .nosotros-bienvenida h1{
+        font-size: 26px;
+    }
+    .nosotros-historia h2{
+        font-size: 26px;
     }
 }
 

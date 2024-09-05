@@ -32,7 +32,7 @@ body {
     margin: 10px; }
     .bodega div img {
       width: 100%; }
-    .bodega div h2 {
+    .bodega div h1 {
       text-align: center;
       margin-top: 50px;
       color: #800020;
@@ -57,10 +57,6 @@ body {
     font-size: 2.5em;
     margin-bottom: 40px;
     text-transform: uppercase; }
-    .destacados h2 hr {
-      border: none;
-      border-top: 4px solid #800020;
-      margin: 20px 0; }
   .destacados .destacados-container {
     display: flex;
     flex-wrap: wrap;
@@ -93,12 +89,14 @@ body {
         font-size: 1em;
         margin-bottom: 20px; }
     .destacados .destacados-container div:hover {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); }
+      background-color: #eee;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05); }
 
 .productos {
   padding: 50px 10%;
   background-color: #FAF0E6; }
-  .productos h2 {
+  .productos h1 {
     color: #800020;
     text-align: center;
     font-size: 2.5em;
@@ -136,7 +134,9 @@ body {
         font-size: 1em;
         margin-bottom: 20px; }
     .productos .productos-container div:hover {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); }
+      background-color: #eee;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05); }
 
 .ofertas {
   padding: 50px 10%;
@@ -184,12 +184,14 @@ body {
         font-size: 1em;
         margin-bottom: 0px; }
     .ofertas .ofertas-container div:hover {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); }
+      background-color: #eee;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05); }
 
 .nosotros-bienvenida {
   background-color: #3a0000;
   padding: 20px; }
-  .nosotros-bienvenida h2 {
+  .nosotros-bienvenida h1 {
     color: #fff;
     border: 2px solid #2e0000;
     border-radius: 10px;
@@ -259,7 +261,7 @@ body {
   padding: 40px;
   background-color: #f9f9f9;
   color: #333; }
-  .sedes h2 {
+  .sedes h1 {
     font-size: 36px;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
@@ -294,6 +296,11 @@ body {
       max-width: 600px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+    .sedes div img:hover {
+      transform: scale(1.05); }
+  .sedes div:hover {
+    transform: scale(0.95);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); }
 
 .formulario {
   display: flex;
@@ -301,7 +308,7 @@ body {
   align-items: center;
   padding: 20px;
   background-color: #f4f4f4; }
-  .formulario h2 {
+  .formulario h1 {
     color: #333;
     font-size: 36px;
     margin-bottom: 20px;
@@ -373,7 +380,7 @@ footer {
     display: inline-block; }
 
 @media screen and (max-width: 1600px) {
-  .bodega div h2 {
+  .bodega div h1 {
     font-size: 2.5em; }
   .bodega div p {
     font-size: 1.3em; }
@@ -381,13 +388,13 @@ footer {
     display: none; } }
 
 @media screen and (max-width: 1200px) {
-  .bodega div h2 {
+  .bodega div h1 {
     font-size: 1.8em; }
   .bodega div p {
     font-size: 1.1em; } }
 
 @media screen and (max-width: 900px) {
-  .bodega div h2 {
+  .bodega div h1 {
     font-size: 1.5em; }
   .bodega div p {
     font-size: 1em; } }
@@ -400,7 +407,7 @@ footer {
     width: 80%; } }
 
 @media screen and (max-width: 500px) {
-  .bodega div h2 {
+  .bodega div h1 {
     font-size: 1em; }
   .bodega div p {
     font-size: 0.8em; } }
@@ -414,13 +421,13 @@ footer {
     font-size: 1.5em; } }
 
 @media screen and (max-width: 1200px) {
-  .productos h2 {
+  .productos h1 {
     font-size: 2em; }
   .ofertas h2 {
     font-size: 2em; } }
 
 @media screen and (max-width: 900px) {
-  .productos h2 {
+  .productos h1 {
     font-size: 1.5em; }
   .ofertas h2 {
     font-size: 1.5em; } }
@@ -432,6 +439,12 @@ footer {
   .nosotros-historia div {
     grid-template-columns: 1fr;
     grid-template-areas: "p" "img"; } }
+
+@media (max-width: 800px) {
+  .nosotros-bienvenida h1 {
+    font-size: 26px; }
+  .nosotros-historia h2 {
+    font-size: 26px; } }
 
 @media (max-width: 900px) {
   .sedes div p {
