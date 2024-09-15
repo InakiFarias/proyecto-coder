@@ -1,11 +1,11 @@
 //MAIN
 @media screen and (max-width:1600px){
     .bodega div h1{
-        font-size: 2.5em;
+        font-size: 45px;
     }
     
     .bodega div p{
-        font-size: 1.3em;
+        font-size: 22px;
     }
 
     .bodega-p2{
@@ -15,28 +15,27 @@
 
 @media screen and (max-width:1200px){
     .bodega div h1{
-        font-size: 1.8em;
+        font-size: 40px;
     }
 
     .bodega div p{
-        font-size: 1.1em;
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width:900px){
     .bodega div h1{
-        font-size: 1.5em;
+        font-size: 30px;
     }
     
     .bodega div p{
-        font-size: 1em;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width:750px){
     .bodega{
         flex-direction: column;
-        margin: 5px;
     }
     
     .bodega div{
@@ -46,24 +45,30 @@
 
 @media screen and (max-width:500px){
     .bodega div h1{
-        font-size: 1em;
+        font-size: 25px;
     }
     
     .bodega div p{
-        font-size: 0.8em;
+        font-size: 14px;
     }
 }
 
 //DESTACADOS
 @media screen and (max-width: 1200px){
     .destacados h2{
-        font-size: 2em;
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 900px){
     .destacados h2{
-        font-size: 1.5em;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .destacados h2{
+        font-size: 30px;
     }
 }
 
@@ -71,23 +76,32 @@
 
 @media screen and (max-width: 1200px){
     .productos h1{
-        font-size: 2em;
+        font-size: 40px;
     }
     .ofertas h2{
-        font-size: 2em;
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 900px){
     .productos h1{
-        font-size: 1.5em;
+        font-size: 35px;
     }
     .ofertas h2{
-        font-size: 1.5em;
+        font-size: 35px;
     }
 }
 
 //NOSOTROS
+
+@media (max-width: 1400px){
+    .nosotros-bienvenida div p{
+        font-size: 16px;
+    }
+    .nosotros-historia div p{
+        font-size: 16px;
+    }
+}
 
 @media (max-width: 1000px){
     .nosotros-bienvenida div{
@@ -110,6 +124,15 @@
     }
     .nosotros-historia h2{
         font-size: 26px;
+    }
+}
+
+@media (max-width: 500px){
+    .nosotros-bienvenida div p{
+        font-size: 14px;
+    }
+    .nosotros-historia div p{
+        font-size: 14px;
     }
 }
 

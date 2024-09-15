@@ -1,18 +1,17 @@
 .nosotros-bienvenida{
-    background-color: #3a0000;
-    padding: 20px;
+    background-color: $color-terciario;
+    padding: 30px;
     h1{
-        color: #fff;
-        border: 2px solid #2e0000;
-        border-radius: 10px;
-        background-color: #2e0000;
-        font-size: 36px;
+        color: $color-principal; 
+        font-size: 40px; 
         font-family: 'Georgia', serif; 
-        font-style: italic;
-        text-align: center;
-        letter-spacing: 1.5px;
-        text-shadow: 2px 2px 6px rgba(231, 231, 229, 0.111); 
-        padding: 20px;
+        font-style: italic; 
+        font-weight: 600; 
+        text-align: center; 
+        letter-spacing: 1px; 
+        padding: 10px;
+        margin: 5px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
     }
     div{
         display: grid;
@@ -20,21 +19,25 @@
         grid-template-rows: auto;
         grid-template-areas: 
         "p img";
-        gap: 20px;
         justify-items: center;
         align-items: center;
+        margin: 10px;
+        padding: 10px;
         p{
+            color: $color-principal; 
+            font-size: 19px; 
+            font-family: 'Georgia', serif; 
+            text-align: center; 
+            line-height: 1.6; 
+            width: 80%;
+            margin-left: auto; 
+            margin-right: auto; 
             grid-area: p;
-            display: inline-block;
-            color: #fff;
-            font-size: 20px;
-            font-weight: 400;
-            padding: 15px;
         }
         img{
             grid-area: img;
             width: 100%; 
-            max-width: 600px; 
+            max-width: 700px; 
             border-radius: 8px; 
         }
     }
@@ -45,15 +48,17 @@
     padding: 20px;
     h2{
         color: #d8cfc4; 
-        font-size: 36px;
-        font-weight: bold;
+        font-family: 'Georgia', serif; 
+        font-style: italic; 
+        font-weight: 600; 
         text-align: center;
-        margin-bottom: 20px;
         padding: 10px;
+        margin: 5px auto;
         border-bottom: 3px solid #a89f91; 
         background-color: #333; 
         border-radius: 8px; 
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        width: 85%;
     }
     div{
         display: grid;
@@ -61,19 +66,26 @@
         grid-template-rows: auto;
         grid-template-areas: 
         "p img";
-        gap: 20px;
+        margin: 10px;
+        padding: 10px;
         justify-items: center;
         align-items: center;
         p{
-            grid-area: p;
-            color: #ffffff; 
-            font-size: 18px; 
-            padding: 10px;
+            color: $color-principal; 
+            font-size: 19px; 
+            font-family: 'Georgia', serif; 
+            font-weight: 400; 
+            font-style: normal; 
+            text-align: center; 
+            line-height: 1.6; 
+            width: 80%;
+            margin-left: auto; 
+            margin-right: auto; 
         }
         img{
             grid-area: img;
             width: 100%; 
-            max-width: 600px; 
+            max-width: 700px; 
             border-radius: 8px; 
         }
     }

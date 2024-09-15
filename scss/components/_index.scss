@@ -6,21 +6,23 @@
     div{
         width: 50%;
         margin: 10px;
+        padding: 20px;
         img{
             width: 100%;
+            border-radius: 10px;
         }
         h1{
             text-align: center;
             margin-top: 50px;
-            color: #800020;
-            font-size: 3.5em;
+            color: $color-secundario;
+            font-size: 55px;
             font-family: 'Georgia', serif;
             letter-spacing: 2px;
             text-transform: uppercase;
         }
         p{
-            color: #1C1C1C; 
-            font-size: 1.2em; 
+            color: #000; 
+            font-size: 20px; 
             font-family: 'Georgia', serif; 
             line-height: 1.6; 
             margin: 20px 10%; 
@@ -31,32 +33,34 @@
 
 .destacados{
     padding: 50px 10%;
-    background-color: #FAF0E6; 
+    background-color: $color-secundario; 
     h2{
-        color: #800020; 
         text-align: center;
-        font-size: 2.5em;
-        margin-bottom: 40px;
+        margin: 30px;
+        color: $color-principal;
+        font-size: 50px;
+        font-family: 'Georgia', serif;
+        letter-spacing: 2px;
         text-transform: uppercase;
     }
     .destacados-container{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 15px;
         div{
-            background-color: #FFF; 
-            border: 1px solid #1C1C1C; 
+            background-color: $color-principal; 
+            border: 1px solid #fff; 
             border-radius: 8px;
             padding: 20px;
             text-align: center;
-            width: 200px;
+            width: 150px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             display: grid;
             grid-template-rows: auto 1fr auto auto;
             gap: 10px;
             h3{
-                color: #800020; 
+                color: $color-secundario; 
                 font-size: 17px;
                 margin: 0;
                 height: 50px;
@@ -69,8 +73,8 @@
                 margin-bottom: 10px;
             }
             p{
-                color: #1C1C1C; 
-                font-size: 1em;
+                color: #000; 
+                font-size: 16px;
                 margin-bottom: 20px;
             }
         }
